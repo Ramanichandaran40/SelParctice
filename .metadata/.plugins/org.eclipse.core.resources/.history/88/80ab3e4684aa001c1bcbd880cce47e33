@@ -1,0 +1,17 @@
+package com.test;
+
+public class ConsChild extends ConsParent{
+	public ConsChild () {
+		System.out.println("Defauly constructor");
+	}
+	public ConsChild (String name,int n) {
+		System.out.println("String and Integer");
+	}
+	public ConsChild (int n, long j) {
+		System.out.println("String and Integer");
+	}
+	
+public static void main(String[]args) {
+	ConsChild c = new ConsChild(123,9003735054l);
+}
+}

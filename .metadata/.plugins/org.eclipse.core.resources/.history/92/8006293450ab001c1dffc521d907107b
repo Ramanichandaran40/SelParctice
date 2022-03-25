@@ -1,0 +1,13 @@
+package com.excel.test;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class SheetTest {
+public static void main(String[]args) throwsException {
+	File f = new File("C:\\Users\\Ramanichandaran M\\Desktop\\h.xlsx");
+	FileInputStream f1 = new FileInputStream(f);
+	Workbook w = new XSSFWorkbook();
+}
+}
